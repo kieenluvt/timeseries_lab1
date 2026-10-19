@@ -31,6 +31,8 @@ timeseries_lab1/
 │
 ├── data/
 │   └── raw/                       # Chứa dữ liệu gốc a10.csv
+│        ├── a10.csv              
+│        ├── save_data_file.py  
 │
 ├── notebooks/                     # Toàn bộ mã nguồn thực thi dạng Jupyter Notebook
 │   ├── 01_eda.ipynb               # Bài 1: Khám phá dữ liệu (Trend, Seasonality)[cite: 2]
