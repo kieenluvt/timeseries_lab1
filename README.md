@@ -13,11 +13,11 @@ Dự án thực hành môn học về phân tích chuỗi thời gian, kiểm đ
 | STT | Họ và Tên | MSSV | Vai trò & Nhiệm vụ chính | Sản phẩm bàn giao |
 | :---: | :--- | :---: | :--- | :--- |
 | 1 | Đinh Bùi Trung Kiên | 001205054267 | **Thành viên:** Quản trị Git/Repo, thiết lập cấu trúc, thực hiện Bài 1 (EDA) | `01_eda.ipynb`, `docs/lab01_eda.md` |
-| 2 | [Tên TV 2] | [MSSV] | **Thành viên:** Thực hiện Bài 2 (Kiểm định ADF trên chuỗi gốc) | `02_adf_test.ipynb`, `docs/lab02_adf.md` |
-| 3 | [Tên TV 3] | [MSSV] | **Thành viên:** Thực hiện Bài 3 (Sai phân & Kiểm định lại ADF)[cite: 2] | `03_differencing.ipynb`, `docs/lab03_differencing.md` |
-| 4 | [Tên TV 4] | [MSSV] | **Thành viên:** Thực hiện Bài 4 (Phân tích biểu đồ ACF & PACF)[cite: 2] | `04_acf_pacf.ipynb`, `docs/lab04_acf_pacf.md` |
-| 5 | [Tên TV 5] | [MSSV] | **Thành viên:** Thực hiện Bài 5A (Chia tập, Fit mô hình ARIMA & Dự báo) | `05_arima_modeling.ipynb`, `reports/figures/` |
-| 6 | [Tên TV 6] | [MSSV] | **Thành viên:** Thực hiện Bài 5B (Chẩn đoán phần dư & Viết báo cáo 9 câu hỏi) | `docs/lab05_arima.md` |
+| 2 | Tuyết Trân | [MSSV] | **Thành viên:** Thực hiện Bài 2 (Kiểm định ADF trên chuỗi gốc) | `02_adf_test.ipynb`, `docs/lab02_adf.md` |
+| 3 | Phan Tuấn Kiệt | [MSSV] | **Thành viên:** Thực hiện Bài 3 (Sai phân & Kiểm định lại ADF)[cite: 2] | `03_differencing.ipynb`, `docs/lab03_differencing.md` |
+| 4 | Việt Hoài | [MSSV] | **Thành viên:** Thực hiện Bài 4 (Phân tích biểu đồ ACF & PACF)[cite: 2] | `04_acf_pacf.ipynb`, `docs/lab04_acf_pacf.md` |
+| 5 | Nguyễn Trung Kiên | [MSSV] | **Thành viên:** Thực hiện Bài 5A (Chia tập, Fit mô hình ARIMA & Dự báo) | `05_arima_modeling.ipynb`, `reports/figures/` |
+| 6 | Trọng Đại | [MSSV] | **Thành viên:** Thực hiện Bài 5B (Chẩn đoán phần dư & Viết báo cáo 9 câu hỏi) | `docs/lab05_arima.md` |
 
 ---
 
@@ -50,3 +50,16 @@ timeseries_lab1/
 │
 └── reports/
     └── figures/                   # Toàn bộ hình ảnh, biểu đồ trực quan hóa được xuất ra
+
+## 3. Tập dữ liệu 
+
+```text
+Tên bài toán trong đề bài: Monthly Retail Sales (Doanh số bán lẻ theo tháng).
+
+Bản chất dữ liệu thực tế: Đây là bộ dữ liệu kinh điển về doanh số bán thuốc điều trị đái tháo đường hàng tháng tại Úc (Monthly anti-diabetic drug sales in Australia), thuộc nhóm phân loại ATC mã A10 (đó là lý do file có tên là a10.csv), được thu thập theo từng tháng từ năm 1991 đến 2008.
+
+Cấu trúc dữ liệu:
+    Cột date: Thời gian theo tháng (từ tháng 07/1991 trở đi).
+    Cột value: Doanh số bán ra (tính bằng triệu dollar).
+
+Đặc điểm chuỗi thời gian: Chuỗi có xu hướng tăng rõ rệt (Trend) theo thời gian và tính chu kỳ mùa vụ hàng năm rất mạnh (Seasonality) (doanh số thường tăng đột biến vào dịp tháng 12 – tháng 1 hàng năm, sau đó giảm mạnh vào tháng 2).
