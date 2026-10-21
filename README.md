@@ -13,11 +13,11 @@ Dự án thực hành môn học về phân tích chuỗi thời gian, kiểm đ
 | STT | Họ và Tên | MSSV | Vai trò & Nhiệm vụ chính | Sản phẩm bàn giao |
 | :---: | :--- | :---: | :--- | :--- |
 | 1 | Đinh Bùi Trung Kiên | 001205054267 | **Thành viên:** Quản trị Git/Repo, thiết lập cấu trúc, thực hiện Bài 1 (EDA) | `01_eda.ipynb`, `docs/lab01_eda.md` |
-| 2 | Tuyết Trân | [MSSV] | **Thành viên:** Thực hiện Bài 2 (Kiểm định ADF trên chuỗi gốc) | `02_adf_test.ipynb`, `docs/lab02_adf.md` |
-| 3 | Phan Tuấn Kiệt | [MSSV] | **Thành viên:** Thực hiện Bài 3 (Sai phân & Kiểm định lại ADF)[cite: 2] | `03_differencing.ipynb`, `docs/lab03_differencing.md` |
-| 4 | Việt Hoài | [MSSV] | **Thành viên:** Thực hiện Bài 4 (Phân tích biểu đồ ACF & PACF)[cite: 2] | `04_acf_pacf.ipynb`, `docs/lab04_acf_pacf.md` |
-| 5 | Nguyễn Trung Kiên | [MSSV] | **Thành viên:** Thực hiện Bài 5A (Chia tập, Fit mô hình ARIMA & Dự báo) | `05_arima_modeling.ipynb`, `reports/figures/` |
-| 6 | Trọng Đại | [MSSV] | **Thành viên:** Thực hiện Bài 5B (Chẩn đoán phần dư & Viết báo cáo 9 câu hỏi) | `docs/lab05_arima.md` |
+| 2 | Nguyễn Hồ Tuyết Trân  | 062306000460 | **Thành viên:** Thực hiện Bài 2 (Kiểm định ADF trên chuỗi gốc) | `02_adf_test.ipynb`, `docs/lab02_adf.md` |
+| 3 | Phan Tuấn Kiệt | 096206005353 | **Thành viên:** Thực hiện Bài 3 (Sai phân & Kiểm định lại ADF)[cite: 2] | `03_differencing.ipynb`, `docs/lab03_differencing.md` |
+| 4 | Phan Việt Hoài | 054206003120 | **Thành viên:** Thực hiện Bài 4 (Phân tích biểu đồ ACF & PACF)[cite: 2] | `04_acf_pacf.ipynb`, `docs/lab04_acf_pacf.md` |
+| 5 | Nguyễn Trung Kiên | 060206010236 | **Thành viên:** Thực hiện Bài 5A (Chia tập, Fit mô hình ARIMA & Dự báo) | `05_arima_modeling.ipynb`, `reports/figures/` |
+| 6 | Đoàn Trọng Đại | 070205010074 | **Thành viên:** Thực hiện Bài 5B (Chẩn đoán phần dư & Viết báo cáo 9 câu hỏi) | `docs/lab05_arima.md` |
 
 ---
 
