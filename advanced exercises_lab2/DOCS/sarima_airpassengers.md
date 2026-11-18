@@ -124,14 +124,3 @@ $$MAE = \frac{1}{n}\sum_{t=1}^{n}|y_t-\hat y_t| \qquad RMSE = \sqrt{\frac{1}{n}\
 - ARIMA chỉ nắm được xu hướng, bỏ qua mùa vụ.
 - Kết luận chính: với dữ liệu có mùa vụ mạnh như AirPassengers, cần dùng mô hình có thành phần mùa vụ.
 
-## 6. Hướng cải thiện
-
-- Lấy **log** chuỗi trước khi fit để ổn định phương sai (do mùa vụ nhân), sau đó biến đổi ngược khi đánh giá.
-- Thử lưới tham số (p, q, P, Q) rộng hơn và chọn theo AIC/BIC.
-- Dùng cross-validation theo thời gian (rolling origin) thay vì một lần chia train/test.
-
-## 7. Cách chạy
-
-1. Cài thư viện như mục 3.
-2. Mở lần lượt các notebook trong `notebooks/` (hoặc chạy `python sarima_airpassengers.py` để chạy toàn bộ).
-3. Điền kết quả MAE, RMSE vào bảng ở Bước 7.
